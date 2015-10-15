@@ -16,6 +16,7 @@ public class Scripture extends AppCompatActivity {
         setContentView(R.layout.activity_scripture);
     }
 
+    // function for the button
     public void shareScrip (View v){
         Intent intent = new Intent(this, SharedScripture.class);
 
